@@ -80,17 +80,35 @@ body {
   }
 
 
+
   .video_btn {
     display: inline-block;
     background-color: #5C80BC;
     border-radius: 12px;
     padding: 12px;
-    margin-top: 5px;
+    margin: 5px 5px 0 0;
     color: white;
     text-decoration: none;
   }
 
   .video_btn:hover {
-     background-color: #e6e4ce;
+     background-color: #edae49;
      color: black;
+  }
+
+  .figma_btn {
+    display: inline-block;
+    color: #5C80BC;
+    border: #5C80BC 1px solid ;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 5px 5px 0 0;
+    background-color: white;
+    text-decoration: none;
+  }
+
+  .figma_btn:hover {
+     background-color: #edae49;
+     color: black;
+     border: 0px;
   }
