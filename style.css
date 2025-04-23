@@ -6,6 +6,37 @@ body {
     color: #333;
   }
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #e1f2ff ;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #5489c8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a.active{
+  color:#2c6cb6;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00bcd4; 
+}
+
   /* Initial state before animation */
 .slide-up {
   opacity: 0;
@@ -71,7 +102,6 @@ body {
   }
   
   .about_headers {
-    color: #5C80BC;
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 10px;
