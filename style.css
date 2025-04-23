@@ -135,7 +135,38 @@ body {
     border-left: 3px solid #4a90e2;
   }
   
+  .timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+  }
+
   
+  .timeline-content {
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .timeline-date {
+    margin-bottom: 7px;
+  }
+  
+  .timeline-location {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 0.8rem;
+  }
+  
+  .timeline-content ul {
+    padding-left: 1.2rem;
+    margin: 0.5rem 0 1rem;
+  }
+  
+  .timeline-content ul li {
+    list-style: disc;
+    margin-bottom: 0.3rem;
+  }
   a.video_btn,
   a.figma_btn,
   a.git_btn {
