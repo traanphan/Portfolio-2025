@@ -11,11 +11,21 @@
 <body>
 
   <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about_me">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievement">Achievement</a></li>
+      </ul>
+    </nav>
     <h1>Hello, I'm Bao Tran Phan</h1>
     <p>Welcome to my portfolio! Scroll down to see what I've been working on.</p>
   </header>
 
-  <section class ="about_me slide-up">
+  
+
+  <section id = "about_me" class="about_me slide-up">
     <h1>About me</h1>
     <div class ="about_container">
 
@@ -65,6 +75,7 @@
           <li>
             Assisted in creating reports (RFI, RFB, etc) and presentations to document the findings
           </li>
+          <li><strong>Tools: </strong> <code>MS Office Suite</code> <code>Microsoft Project</code> <code>SharePoint</code> <code>Azure DevOps</code></li>
         </ul>
 
       </div>
@@ -75,7 +86,7 @@
   </section>
 
   
-  <section class="projects timeline-section">
+  <section id="projects" class="projects timeline-section slide-up">
     <h1>Projects</h1>
   
     <div class="timeline-container">
@@ -107,7 +118,7 @@
             <ul>
               <li>Enhanced an existing pipeline using <code>Python</code> and <code>DeepFace</code> for face detection, manual labeling, embedding storage, and face matching</li>
               <li>Improved model accuracy and speed by tuning face detection parameters and switching detector backends</li>
-              <li>Developed custom scripts using <code>Python, Pillow, and scikit-image</code> to convert standard images into halftone-style images for testing and evaluating recognition accuracy</li>
+              <li>Developed custom scripts using <code>open-cv, Pillow, and scikit-image</code> to convert standard images into halftone-style images for testing and evaluating recognition accuracy</li>
             </ul>
             <a href="https://github.com/HitarthPatel29/Project4-FacialRecognition/" class="git_btn" target="_blank">GitHub Repo</a>
           </div>
@@ -118,8 +129,8 @@
   </section>
   
 
-  <section class = "achievement slide-up">
-    <h1>Achievements</h1>
+  <section id="achievement" class = "achievement slide-up">
+    <h1>Achievement</h1>
 
     <ul class="cards">
       <li class="cards_item">
