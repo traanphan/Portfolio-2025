@@ -123,6 +123,18 @@ body {
   }
   
 
+  .timeline-section {
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  
+  .timeline-container {
+    position: relative;
+    margin: 2rem 0;
+    padding-left: 40px;
+    border-left: 3px solid #4a90e2;
+  }
+  
   
   a.video_btn,
   a.figma_btn,
