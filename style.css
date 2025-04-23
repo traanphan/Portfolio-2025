@@ -3,7 +3,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: white;
-    color: #333;
   }
 
 nav {
@@ -201,7 +200,7 @@ nav ul li a:hover {
   a.figma_btn,
   a.git_btn {
     display: inline-block;
-    margin-right: 10px;
+    margin: 10px;
     padding: 6px 12px;
     background: #4a90e2;
     color: #fff;
@@ -280,6 +279,51 @@ nav ul li a:hover {
     font-size: 20px;
     font-weight: 700;
   }
+
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .about_container {
+    display: block;
+    padding: 10px;
+  }
+
+  .avatar, .contact, .edu, .exp {
+    grid-column: auto;
+    grid-row: auto;
+    margin-bottom: 20px;
+  }
+
+  .header_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    
+  }
+
+  .card_content {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .card_title {
+    font-size: 16px;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+}
 
 
 
