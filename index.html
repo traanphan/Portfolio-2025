@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
 </head>
 <body>
 
@@ -13,7 +15,7 @@
     <p>Welcome to my portfolio! Scroll down to see what I've been working on.</p>
   </header>
 
-  <section class ="about_me">
+  <section class ="about_me slide-up">
     <h1>About me</h1>
     <div class ="about_container">
 
@@ -41,9 +43,15 @@
       <div class="exp">
         <h2 class = "about_headers">Experience</h2>
         <hr>
-        <h3>Junior Business Analyst (January 2024 – August 2024)</h3>
+
+        <div class="header_container">
+          <h3 class="job_title">Junior Business Analyst</h3>
+          <p class="duration">January 2024 – August 2024</p>
+        </div>
+        
         <p class = "timeline"> Ontario Public Service</p>
         <p class = "timeline">St.Catharines, ON, CA</p>
+
         <ul>
           <li>
             Assisted in defining product requirements, and translating stakeholder needs into actionable product features
@@ -66,7 +74,7 @@
     </div>
   </section>
 
-  <section class = "achievement">
+  <section class = "achievement slide-up">
     <h1>Achievements</h1>
 
     <ul class="cards">
@@ -102,9 +110,6 @@
       </li>
     </ul>
     
-
-
-
 
   </section>
 
