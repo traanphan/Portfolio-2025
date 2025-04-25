@@ -309,7 +309,14 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+  
   
   .card_content {
     position: relative;
