@@ -76,7 +76,7 @@ nav ul li a:hover {
     justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
-    text-align: left;
+    text-align: center;
   }
   
   .header_avatar {
@@ -112,6 +112,7 @@ nav ul li a:hover {
 
   .about_me {
     padding: 40px 20px;
+    background-color: #f7faff;
   }
   
   .about_container {
@@ -145,6 +146,17 @@ nav ul li a:hover {
   .cert {
     grid-column: 3;
     grid-row: 2;
+  }
+
+  .cert a {
+    color: #4a90e2;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 500;
+  }
+  
+  .cert a:hover {
+    text-decoration: underline;
   }
   
   .about_headers {
@@ -331,6 +343,35 @@ nav ul li a:hover {
     font-size: 20px;
     font-weight: 700;
   }
+
+  .site-footer {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+  }
+  
+  .linkedin-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .linkedin-icon:hover {
+    transform: scale(1.2);
+  }
+  
 
 
 @media (max-width: 768px) {
